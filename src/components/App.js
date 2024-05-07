@@ -6,6 +6,7 @@ import {Route, Routes} from "react-router-dom";
 import CoursesPage from "./CoursesPage";
 import NotFoundPage from "./NotFoundPage";
 import ManageCoursePage from "./ManageCoursePage";
+import "./App.css"
 
 function App() {
     return (
