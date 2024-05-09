@@ -72,27 +72,11 @@
     },
     {
       "id": 11,
-      "slug": "testing-stuff",
-      "title": "Testing Stuff",
+      "slug": "dlfjdlfjdlfjdlfjdl",
+      "title": "dlfjdlfjdlfjdlfjdl",
       "authorId": 1,
-      "category": "TESTING",
-      "createdAt": 1715138589567
-    },
-    {
-      "id": 12,
-      "slug": "jdfdslfjlsdjfldsjfl",
-      "title": "jdfdslfjlsdjfldsjfl",
-      "authorId": 2,
-      "category": "dkdf;df;kds;fkd;fk;dk;fd",
-      "createdAt": 1715138893304
-    },
-    {
-      "id": 13,
-      "slug": "djfldjfoeoeimkfldjfldsjfldjfldjlf",
-      "title": "djfldjfoeoeimkfldjfldsjfldjfldjlf",
-      "authorId": 2,
-      "category": "jfjldfjdjjfjdjfjdjfdj",
-      "createdAt": 1715139280801
+      "category": "jfldjfldjfljdlfjdlfjldjfldsfldsl",
+      "createdAt": 1715225016142
     }
   ],
   "authors": [

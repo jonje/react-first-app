@@ -6,11 +6,14 @@ import {Route, Routes} from "react-router-dom";
 import CoursesPage from "./CoursesPage";
 import NotFoundPage from "./NotFoundPage";
 import ManageCoursePage from "./ManageCoursePage";
+import {ToastContainer} from "react-toastify";
 import "./App.css"
+import "react-toastify/dist/ReactToastify.css"
 
 function App() {
     return (
         <div className="container-fluid">
+            <ToastContainer autoClose={3000} hideProgressBar/>
             <Header/>
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
