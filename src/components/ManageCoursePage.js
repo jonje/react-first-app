@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useNavigate} from "react-router-dom";
 import CourseForm from "./CourseForm";
 import * as CourseApi from "../api/courseApi"
@@ -17,6 +17,13 @@ const ManageCoursePage = props => {
         authorId: null,
         category: ""
     });
+
+    useEffect(() => {
+        const slug = params.slug;
+        if (slug) {
+            CourseApi.getCourseBySlug(slug).then(_course => setCourse(_course));
+        }
+    }, [params.slug]);
 
     function handleOnChange({ target }) {
         // ... spread operator used to make copy of course object and set to value passed by event.
